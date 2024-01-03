@@ -1,0 +1,179 @@
+body {
+    display: flex;
+    background-color: rgb(235, 235, 235);
+    justify-content: center;
+    align-items: center;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.pdiv {
+    height: 1200px;
+    background-color: rgb(145, 94, 31);
+    width: 100vw;
+    opacity: 0.9;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    border-radius: 10px;
+ 
+
+    
+}
+ 
+.logodiv {
+    margin-top: 20px;
+}
+
+
+#logo {
+    width: 100px;
+    height: 50px;
+    position: relative;
+   
+
+}
+.cdiv {
+    width: 1300px;
+    height: 500px;
+    position: relative;
+    background-image: url(./Images/Background\ Image\ \(2\).png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+ .cdiv2 {
+    background-color: rgb(252, 245, 236);
+    position: relative;
+    width: 1300px;
+    height: 600px;
+    box-shadow: 5px bisque;
+    box-sizing: border-box;
+    padding-left: 150px;
+    padding-right: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+   
+    
+    
+ }
+
+li {
+    list-style: none;
+
+}
+
+li button { font-weight: 500;
+    font-size: 8px;
+    text-decoration: none;
+    color: white;
+    background-color:rgb(145, 94, 31);
+    padding: 5px 20px;
+    border: none;
+    border-radius: 30px;
+
+}
+header {
+    height: 80px;
+    display: flex;
+    justify-content:space-between ;
+}
+
+header .navbar {
+    display: flex;
+    justify-content: right;
+    position: relative;
+    box-sizing: border-box;
+    align-items: flex-end;
+}
+
+
+    
+    
+
+.navbar li {
+    display: inline-block;
+    padding: 2px;
+    font-size: 10px;
+}
+
+.navbar{
+padding-top: 30px;
+}
+   
+.container{
+
+    width: 1300px;
+    height: 1000px;
+    display: flex;
+    padding-top: 50px;
+}
+
+.text {
+    position: relative;
+    width: 50%;
+    height: 500px;
+    padding-top: 30px;
+    
+}
+
+.text > h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+.text > p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+}
+.text button {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+}
+.imgdiv{
+    position: relative;
+    align-content: end;
+    width: 50%;
+    height: 500px;
+    
+    
+}
+.imgdiv img {
+    height: 400px;
+    width: 400px;
+}
+
+button {
+    font-weight: 500;
+    font-size: 13px;
+    text-decoration: none;
+    color: white;
+    background-color:rgb(145, 94, 31);
+    padding: 5px 20px;
+    border: none;
+    border-radius: 30px;
+}
+
+button:hover {
+    color: black;
+    background-color: white;
+    
+}
+.cdiv2 .small {
+    border: 1px solid bisque;
+    display: flex;
+    width: 200px;
+    height: 400px;
+    flex-direction: column;
+}
+
