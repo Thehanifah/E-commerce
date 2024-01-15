@@ -71,7 +71,10 @@ body {
 
 li {
     list-style: none;
-
+    
+}
+.dropdown-icon {
+    display: none;
 }
 
 li button { font-weight: 500;
